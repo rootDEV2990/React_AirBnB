@@ -15,6 +15,7 @@ function Banner() {
             <div className="banner-info">
                 <h1>Get out and streach out your imagination</h1>
                 <h6>Plan a diffrent kind of get away to find hidden gems near you</h6>
+                <Button onClick={() => history.push('/search')} varient="outlined">Explore Nearby</Button>
             </div>
         </div>
     )
