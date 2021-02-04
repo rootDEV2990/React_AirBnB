@@ -1,5 +1,6 @@
 import './App.css';
-import Header from "./views/templates/Header";
+import Header from "./views/default/Header";
+import Home from "./views/pages/Home";
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 
 
@@ -15,6 +16,7 @@ function App() {
           </Route>
           <Route path="/">
             {/*home*/}
+            <Home />
 
           </Route>
 
